@@ -1,0 +1,41 @@
+.main-parent{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.main-intro-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    gap: 1em;
+}
+
+.main-intro-text h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: .02em;
+}
+
+.main-intro-text p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #494949;
+    line-height: 1.5;
+}
+
+.main-intro-picture{
+    position: relative;
+}
+
+#circle-back-fade{
+    height: 700px;
+    width: 700px;
+    background: #FFF8F5;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 51px;
+}
