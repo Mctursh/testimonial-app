@@ -1,0 +1,128 @@
+footer{
+    background-color: #25201D;
+    padding-bottom: 5em;
+}
+
+.top-footer-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10em;
+}
+
+.top-footer-details h1{
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.top-footer-parent img{
+    justify-self: center;
+    position: relative;
+    bottom: 50px;
+    z-index: 5;
+}
+.top-footer-details p{
+    font-family: 'Roboto',
+    sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.top-footer-details{
+    align-self: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4em;
+}
+
+.nws-ltr{
+    display: flex;
+    padding: 0.2em;
+    background-color: rgba(255, 255, 255, .2);
+    width: fit-content;
+    padding-left: 1em;
+    border-radius: 6px;
+}
+
+.nws-ltr button{
+    border: none;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: #242120;
+    padding: 0.9em 1.2em;
+    background: #FFFFFF;
+    box-shadow: 1px 4px 8px rgb(239 88 3 / 20%);
+    border-radius: 4px;
+}
+
+.nws-ltr input{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #fff;
+}
+
+.nws-ltr input::placeholder{
+    color: #fff;
+    font-family: inherit;
+}
+
+.btm-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.btm-footer-item{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    color: #fff;
+    gap: 1.5em;
+}
+
+.btm-footer-item h1{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.btm-footer-item p{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+.btm-footer-item ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.btm-footer-item ul li{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    min-height: 24px;
+}
+
+.social-icon{
+    height: 24px;
+    width: 24px;
+    background-color:  #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-parent{
+    display: flex;
+    gap: .4em;
+    align-items: center;
+}
