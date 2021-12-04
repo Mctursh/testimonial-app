@@ -46,3 +46,19 @@ img{
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
+
+.modal-parent{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 90vh;
+  width: 90vh;
+  max-height: 90%;
+  background: #FFFFFF;
+  border-radius: 16px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+

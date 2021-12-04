@@ -193,3 +193,200 @@ article h2{
     text-transform: uppercase;
     color: #FF5C00;
 }
+
+.modal-child{
+    padding: 2em 1.5em;
+    border-radius: 16px;
+    flex-grow: 1;
+}
+
+.modal-child header h1{
+    font-family: 'Inter',
+    sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.8em;
+    color: #000000;
+}
+form{
+    display: grid;
+    row-gap: 1.3em;
+}
+
+form label {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #676767;
+}
+
+.name-parent input, textarea{
+    font-family: 'Roboto',
+    sans-serif;
+    background: #FEFEFE;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 1em 1.2em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4A4A4A;
+}
+
+.name-parent input:focus-visible, textarea:focus-visible{
+    outline: 1px solid #FF5C00;
+}
+
+.upload-parent{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+.input-parent{
+    padding: 1em 1.2em;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.fname-parent,
+.lname-parent,
+.story-parent {
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+}
+
+.radio-parent{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+}
+
+.radio-child{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 1px solid #FF5C00;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #FF5C00;
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+    display: none;
+}
+input[type="file"]{
+    display: none;
+}
+
+.modal-btn-parent{
+    text-align: right;
+    padding: 1.4em 0;
+}
+
+.modal-btn{
+    font-family: 'Inter',
+    sans-serif;
+    background: #FF5C00;
+    box-shadow: 2px 8px 30px rgb(230 83 0 / 18%);
+    border-radius: 8px;
+    border: none;
+    padding: 1em 2em;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#pic, .input-parent label{
+    flex-grow: 1;
+}
+
+.input-parent button{
+    background: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.submit-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3.5em;
+    padding: 0 4em;
+}
+.modal-back-drop{
+    position: absolute;
+    height: 155px;
+    width: 155px;
+    border-radius: 50%;
+    background: #FFF8F5;
+    z-index: -1;
+    top: -37px;
+    right: -40px;
+}
+.modal-img{
+    position: relative;
+}
+.modal-sub-remark h1{
+    font-family: 'Inter',
+    sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+
+.modal-sub-remark p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #4A4A4A;
+
+}
