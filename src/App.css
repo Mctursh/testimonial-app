@@ -3,11 +3,46 @@
   height: 100vh;
 }
 
+body{
+  font-family: 'Inter',
+  sans-serif;
+}
+
 *{
   margin: 0;
   padding: 0;
 }
 
+img{
+  vertical-align:bottom
+}
+
 .pad{
+  padding: 1em 9em 0;
+}
+
+.s-pad{
   padding: 1em 9em;
+}
+
+.btn {
+  font-family: 'Inter',
+  sans-serif;
+  background: inherit;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.vend{
+  color: #FF5C00;
+  border: 1px solid rgba(255, 92, 0, 0.4);
+}
+
+.cust{
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }

@@ -1,0 +1,187 @@
+.top-mid-parent{
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.top-mid-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    gap: 2em;
+}
+
+.top-mid-pic{
+    position: relative;
+}
+.top-mid-pic img{
+    position: relative;
+    z-index: 4;
+}
+
+.back-circle-fade{
+    height: 630px;
+    width: 630px;
+    background: #2E2E2E;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+}
+
+.top-mid-text h1{
+    margin-bottom: .3em;
+    font-family: 'Inter',
+    sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.top-mid-text h3{
+    font-family: 'Inter',
+    sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.top-mid-text p{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Inter',
+    sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+#story-svg{
+    position: relative;
+    bottom: 4px;
+    right: 9px;
+}
+
+.mid-mid-parent{
+    background-color: #FFF;
+    position: relative;
+    z-index: 5;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 6em;
+}
+
+article img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+article{
+    text-align: left;
+}
+
+.util{
+    font-family: 'Inter',
+    sans-serif;
+    border-radius: 4px;
+    border: none;
+    padding: 0.5em 0.8em;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+}
+
+.cus{
+    background: #EEF8FF;
+    color: #0D019A;
+}
+
+.ven{
+    color: #049A01;
+    background: #F0FFEE
+}
+
+article h2{
+    font-family: 'Inter',
+    sans-serif;
+    color: #474747;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    margin-top: 1.5em;
+}
+
+#desc{
+    font-family: 'Inter',
+    sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #474747;
+    letter-spacing: 0.02em;
+}
+
+#loc{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+#loc p{
+    font-family: 'Inter',
+    sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: #535353;
+}
+
+.sub-mid-pic{
+    position: relative;
+}
+
+.back-drop-circle{
+    height: 630px;
+    width: 630px;
+    border-radius: 50%;
+    position: absolute;
+    top: -34px;
+    background: rgba(255, 92, 0, 0.03);
+}
+
+.sub-mid-parent{
+    background-color: #FFF8F5;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    padding-top: 5em;
+    gap: 5em;
+}
+
+.sub-mid-text h1{
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    color: #242120;
+    margin-bottom: .3em;
+}
+
+.sub-mid-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5em;
+}
+
+.sub-mid-text p{
+    line-height: 1.5;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #242120;
+}

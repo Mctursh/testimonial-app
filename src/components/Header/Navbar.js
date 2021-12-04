@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
     return (
         <nav>
-            <div className="main-nav-parent pad">
+            <div className="main-nav-parent s-pad">
                 <div className="logo-parent">
                     <img src="logo.png" alt="vasiti logo" />
                 </div>

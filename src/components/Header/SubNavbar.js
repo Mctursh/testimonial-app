@@ -2,7 +2,7 @@ import React from "react";
 
 const SubNavbar = () => {
     return (
-        <div className="sub-nav-parent pad">
+        <div className="sub-nav-parent s-pad">
             <ul>
                 <li><p>MARKETPLACE</p></li>
                 <li><p>WHOLESALE CENTER</p></li>
